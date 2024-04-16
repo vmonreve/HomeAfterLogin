@@ -1,0 +1,396 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+/* Style Header */
+header {
+  background-color: #2c0b09;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 16px;
+  background-blend-mode: soft-light, normal;
+  box-shadow: 0px -4px 2px 0px rgba(0, 0, 0, 0.05) inset, 0px 4px 2px 0px rgba(255, 255, 255, 0.25) inset, 4px 4px 26px 0px rgba(255, 255, 255, 0.25) inset, 0px 40px 80px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 10px;
+  font-size: small;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  padding: 2px;
+}
+
+nav ul :hover {
+  color: #ff3d00;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: small;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home {
+  text-decoration: underline;
+}
+
+.dropbtn {
+  margin-right: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 0px 5px;
+  width: 100px;
+  background-color: #fff;
+  font-size: small;
+  font-weight: 600;
+  cursor: pointer;
+  color: #2c0b09;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+  background: #942720;
+  border-radius: 5px;
+}
+
+.show {
+  display: block;
+}
+/* End Style Header */
+
+/* Style Content Utama */
+article {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: white;
+  height: 75vh;
+  gap: 250px;
+  margin-top: 50px;
+}
+
+.content1 {
+  margin-left: 40px;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 90px;
+  background: linear-gradient(90deg, #84211d 0%, #1e0807 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragraf {
+  color: #2c0b09;
+  font-size: small;
+}
+
+.btn {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #84211d 0%, #510805 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  color: #fff;
+  border: none;
+  width: 40%;
+}
+
+.foto {
+  width: 525px;
+  height: 500px;
+  margin-right: 0px;
+}
+/* End Style Content Utama */
+
+/* Style Layanan Website Kami */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.h3 {
+  color: #fff;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  background-color: #2c0b09;
+  border-radius: 16px;
+  padding: 12px;
+  margin: 1% 40% 1% 40%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 500px;
+  height: 200px;
+  background-color: #942720;
+  fill: linear-gradient(180deg, #942720 0%, #2e0c0a 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.description {
+  margin: 20px 40px 0px 60px;
+  font-size: 13px;
+  color: #fff;
+}
+.description1 {
+  margin: 20px 40px 0px 40px;
+  font-size: 13px;
+  color: #fff;
+}
+.description2 {
+  margin: 20px 40px 0px 40px;
+  font-size: 13px;
+  color: #fff;
+}
+.description3 {
+  margin: 20px 40px 0px 50px;
+  font-size: 13px;
+  color: #fff;
+}
+/* End Style Layanan Website Kami */
+
+/* Style Layanan Chat */
+.section1 {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  background-color: #2c0b09;
+}
+
+.content2 {
+  margin-left: 40px;
+}
+
+.head {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.foto2 {
+  width: 300px;
+  height: 325px;
+  mix-blend-mode: exclusion;
+  filter: brightness(100%);
+}
+/* End Style Layanan Chat */
+
+/* Style Contact */
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 125px 30px 70px 30px;
+  background-color: #2c0b09;
+  padding: 25px;
+}
+
+.h4 {
+  color: #fff;
+  font-size: x-large;
+}
+
+.list {
+  display: flex;
+}
+
+.gambar {
+  width: 20px;
+  height: 20px;
+  mix-blend-mode: exclusion;
+  filter: brightness(100%);
+}
+/* End Style Contact */
+
+/* Style Footer */
+footer {
+  background-color: #2c0b09;
+  background: linear-gradient(213deg, #86211d 17.43%, #1e1e1e 77.99%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 12px;
+  font-size: 11px;
+}
+/* End Style Footer */
+
+/* Media Screen Device Hp */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  .btn-cta {
+    margin-bottom: 10px;
+  }
+
+  article {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .content1 {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .paragraf {
+    font-size: 11px;
+    width: 100%;
+  }
+
+  .foto {
+    width: 300px;
+    height: 325px;
+    margin-right: 0px;
+  }
+
+  .h3 {
+    margin: 0px 50px 0px 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .card-item {
+    width: 250px;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 20px;
+  }
+
+  .content2 {
+    margin: 10px 25px 0px 25px;
+  }
+  .head {
+    font-size: 25px;
+  }
+
+  .paragraf-1 {
+    font-size: 12px;
+  }
+
+  .foto2 {
+    width: 250px;
+    height: 225px;
+  }
+
+  .section2 {
+    margin: 50px 0px 30px 0px;
+  }
+
+  footer {
+    font-size: 7px;
+  }
+}
+/* End Media Screen Device Hp */
